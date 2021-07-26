@@ -2,6 +2,13 @@ h1 {
   font: normal 400 100px 'Roboto', sans-serif;
   margin-top: 10px;
   margin-left: 30px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font: normal 400 30px 'Roboto', sans-serif;
+  margin: 5px;
+  margin-left: 30px;
 }
 
 .myGallery {
@@ -16,6 +23,10 @@ h1 {
 }
 
 .home {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
   font: normal 400 20px 'Roboto', sans-serif;
   justify-content: center;
   text-align: center;
@@ -24,4 +35,6 @@ h1 {
   position: fixed;
   left: 50%;
   bottom: 0;
+  margin-top: 50px;
+  text-decoration: none;
 }
