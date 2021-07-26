@@ -2,3 +2,13 @@ h1 {
   font: normal 700 40px 'Roboto', sans-serif;
   margin: 20px;
 }
+
+.myGallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.myGallery img {
+  width: 100%;
+}
