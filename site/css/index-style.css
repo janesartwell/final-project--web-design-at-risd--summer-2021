@@ -1,3 +1,15 @@
+* {
+  background-color: #fff;
+}
+
 h1 {
-  font: normal 400 25px 'Roboto', sans-serif;
+  font: normal 700 40px 'Roboto', sans-serif;
+  margin: 20px;
+}
+
+section {
+  display: flex;
+  font: italic 400 20px 'Roboto', sans-serif;
+  margin: 20px;
+  line-height: 2;
 }
