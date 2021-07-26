@@ -6,8 +6,9 @@ h1 {
 
 .myGallery {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
 }
 
 .myGallery img {
@@ -15,8 +16,12 @@ h1 {
 }
 
 .home {
+  font: normal 400 20px 'Roboto', sans-serif;
   justify-content: center;
   text-align: center;
   margin: 20px;
   display: flex;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
 }

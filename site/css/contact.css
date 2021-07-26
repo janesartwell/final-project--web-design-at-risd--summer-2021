@@ -5,8 +5,12 @@ h1 {
 }
 
 .home {
+  font: normal 400 20px 'Roboto', sans-serif;
   justify-content: center;
   text-align: center;
   margin: 20px;
   display: flex;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
 }
