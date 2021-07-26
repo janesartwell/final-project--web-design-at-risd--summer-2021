@@ -1,13 +1,11 @@
-* {
-  background-color: #fff;
+html {
+  background-image: url(../img/background.png);
 }
 
 h1,
 h2 {
-  font: normal 700 40px 'Roboto', sans-serif;
+  font: normal 400 40px 'Roboto', sans-serif;
   margin: 20px;
-  justify-content: center;
-  text-align: center;
 }
 
 section {
@@ -16,8 +14,6 @@ section {
   font: italic 400 20px 'Roboto', sans-serif;
   margin: 20px;
   line-height: 2;
-  justify-content: center;
-  text-align: center;
 }
 
 .nonitalic {
