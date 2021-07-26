@@ -1,6 +1,7 @@
 h1 {
-  font: normal 700 40px 'Roboto', sans-serif;
-  margin: 20px;
+  font: normal 400 100px 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .myGallery {
@@ -11,4 +12,11 @@ h1 {
 
 .myGallery img {
   width: 100%;
+}
+
+.home {
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  display: flex;
 }

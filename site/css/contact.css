@@ -1,4 +1,12 @@
 h1 {
-  font: normal 700 40px 'Roboto', sans-serif;
+  font: normal 400 100px 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.home {
+  justify-content: center;
+  text-align: center;
   margin: 20px;
+  display: flex;
 }

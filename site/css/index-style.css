@@ -4,8 +4,9 @@ html {
 
 h1,
 h2 {
-  font: normal 400 40px 'Roboto', sans-serif;
-  margin: 20px;
+  font: normal 400 100px 'Roboto', sans-serif;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 div {
@@ -13,7 +14,7 @@ div {
   text-align: right;
   margin: 20px;
   display: flex;
-  font: italic 400 20px 'Roboto', sans-serif;
+  font: normal 400 30px 'Roboto', sans-serif;
   line-height: 2;
 }
 
