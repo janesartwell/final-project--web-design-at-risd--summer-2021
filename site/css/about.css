@@ -1,12 +1,25 @@
+html {
+  background: #fff url(../img/background.png) no-repeat fixed 0 0;
+}
+
 h1 {
   font: normal 400 100px 'Roboto', sans-serif;
   margin-top: 10px;
   margin-left: 30px;
 }
 
+main {
+  font: normal 400 20px 'Roboto', sans-serif;
+  margin-left: 30px;
+}
+
 .home {
+  font: normal 400 20px 'Roboto', sans-serif;
   justify-content: center;
   text-align: center;
   margin: 20px;
   display: flex;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
 }
