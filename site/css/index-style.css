@@ -1,5 +1,5 @@
 html {
-  background-image: url(../img/background.png);
+  background: #fff url(../img/background.png) no-repeat fixed 0 0;
 }
 
 h1,
@@ -8,11 +8,12 @@ h2 {
   margin: 20px;
 }
 
-section {
-  display: flex;
-  text-decoration: none;
-  font: italic 400 20px 'Roboto', sans-serif;
+div {
+  justify-content: right;
+  text-align: right;
   margin: 20px;
+  display: flex;
+  font: italic 400 20px 'Roboto', sans-serif;
   line-height: 2;
 }
 
